@@ -1,0 +1,27 @@
+.user-card {
+  width: 14em;
+  height: 170px;
+  margin: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  color: grey;
+  display: inline-block;
+}
+
+.user-card > img {
+  width: 90px;
+  height: 90px;
+  margin: 1em;
+  border-radius: 300px;
+  background: grey;
+}
+
+.user-card h3 {
+  margin-top: 0;
+}

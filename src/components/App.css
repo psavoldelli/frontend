@@ -1,0 +1,44 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.app > header {
+    flex: 0 0 200px;
+    background-color: #94a1b0;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.app input {
+    width: 360px;
+    background: #fff;
+    color: grey;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    outline: 0;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+section.app-list {
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section.app-list-message {
+    font-size: 20px;
+    color: grey;
+    padding: 30px;
+    text-align: center;
+}
