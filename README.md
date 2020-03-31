@@ -12,6 +12,9 @@ Input text in which as the user types in, launch a search against Github users a
 
 - errors not really handled...
 
+##  What I'd do for real
+
+Lot of things... Global error and loader handler, avoid using create react app to be able to manage alias for import statement, or a better integration with IDE ( tslint, autofix, debugger and more ) and more...
 
 ## About rate limit from github
 
